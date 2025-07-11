@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #4d47ff25;
+}
 .header{
     width: 1440px;
     height: 698px;
@@ -29,6 +32,11 @@
     border: none;
     border-radius: 10px;
 }
+.signup:hover{
+    background-color: darkorchid;
+    cursor: pointer;
+    
+}
 .header-secton{
     width: 905px;
     height: 237px;
@@ -49,6 +57,10 @@
     font-weight: bold;
     background-color: #4E47FF;
 }
+.header-section-button:hover{
+    background-color: darkorchid;
+    cursor: pointer;
+}
 
 .action{
     width: 1140px;
@@ -56,7 +68,7 @@
     margin: 116px 160px 0px 140px;
     display: flex;
     align-items: center;
-    background-color: #25243223; 
+    background-color: #4d47ff2e; 
     border-radius: 30px;
 }
 .action-content{
@@ -82,6 +94,10 @@
     background-color: #4E47FF;
     border: none;
     border-radius: 10px;
+}
+.action-content-btn:hover{
+    background-color: darkorchid;
+    cursor: pointer;
 }
 .action-img{
     width: 403px;
@@ -124,9 +140,6 @@
     width: 180px;
     height: 121px;
     margin-top: 20px;
-    /* font-size: 20px;
-    font-weight: bold;
-    color: #252432; */
 }
 .productive-content-number{
     display: block;
@@ -218,13 +231,11 @@
     height: 232px;
     font-size: 67px;
     font-weight: bold;
-    /* padding-top: 200px;
-    padding-bottom: 200px; */
+
 }
 .touch-content-right{
     width: 497px;
     height: 490px;
-    background-color: bisque;
     margin: 71px 0px 71px 115px;
 }
 .email input,.name input{
@@ -263,9 +274,41 @@
     border-radius: 10px;
     background-color: #4E47FF;
 }
-
-
 .submit input:hover{
-    background-color: violet;
+    background-color: darkorchid;
     cursor: pointer;
+}
+.footer{
+    width: 1440px;
+    height: 428px;
+    background-color: #00000010;
+}
+.footer-content{
+    width: 531px;
+    height: 221px;
+    display: inline-block;
+    text-align: center;
+    margin: 104px 455px 103px 454px;
+}
+.footer-content-logo{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.footer-content-tag{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+.footer-content-tag a{
+    text-decoration: none;
+}
+.footer-content-tag-btn:hover{
+    background-color: rgba(175, 238, 238, 0.425);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
