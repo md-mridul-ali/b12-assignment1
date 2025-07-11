@@ -111,21 +111,35 @@
 .productive-content-title{
     font-size: 38;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 20px;
     color: #252432;
    
 }
 .productive-content-details{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-.productive-content-details-p{
+.productive-content-details-1{
     width: 180px;
     height: 121px;
-    margin-top: 40px;
-    font-size: 20px;
+    margin-top: 20px;
+    /* font-size: 20px;
     font-weight: bold;
-    color: #252432;
+    color: #252432; */
+}
+.productive-content-number{
+    display: block;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.productive-content-label{
+     display: block;
+     text-align: center;
+     font-size: 20px;
+     color: #00000057;
+     
+  
 }
 .feedback{
     width: 1140px;
@@ -179,4 +193,79 @@
 }
 .feedback-card-card1-content-sub{
     display: flex;
+}
+.optional{
+    width: 1140px;
+    height: 696.77px;
+    background-color: aqua;
+    margin-top: 140px;
+    margin-left: 140px;
+}
+.touch{
+    width: 1140px;
+    height: 632px;
+    background-color: powderblue;
+    margin-top: 140px;
+    margin-left: 140px;
+}
+.touch-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.touch-content-left{
+    width: 528px;
+    height: 232px;
+    font-size: 67px;
+    font-weight: bold;
+    /* padding-top: 200px;
+    padding-bottom: 200px; */
+}
+.touch-content-right{
+    width: 497px;
+    height: 490px;
+    background-color: bisque;
+    margin: 71px 0px 71px 115px;
+}
+.email input,.name input{
+    width: 477px;
+    height: 6px;
+    border-radius: 10px;
+    border: 0.5px solid #00000056;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.message textarea{
+    width: 477px;
+    height: 71px;
+    border-radius: 10px;
+    border: 0.5px solid #00000056;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.email label, .name label, .message label{
+    font: 18px;
+    font-weight: 600;
+}
+.email, .name, .message{
+    margin-bottom: 19px;
+}
+.submit input{
+    width: 497px;
+    height: 62px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border:none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+}
+
+
+.submit input:hover{
+    background-color: violet;
+    cursor: pointer;
 }
